@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>GLC 3.0 - video BG</title>
+	<meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords"  content="" />
+	<meta name="Resource-type" content="" />
+
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/examples.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-grid.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap-icons/bootstrap-icons.css" />
+	
+	<link rel="stylesheet" type="text/css" href="assets/swiper/swiper-bundle.min.css" />
+	
+ <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/css/boxicons.min.css" rel="stylesheet">
+<link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
+<link href="assets/css/aos.css" rel="stylesheet">
+	
+	
+
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	
+
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+
+
+
+	/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+	#section0 .layer{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+		top: 43%;
+
+		/*
+		* Preventing flicker on some browsers
+		* See http://stackoverflow.com/a/36671466/1081396  or issue #183
+		*/
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*solves problem with overflowing video in Mac with Chrome */
+	#section0{
+		overflow: hidden;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+
+	/* Hiding video controls
+	* See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
+	* --------------------------------------- */
+	video::-webkit-media-controls {
+	  display:none !important;
+	}
+
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+	
+</head>
+<body>
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">LC Multimedios<span></span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="#about">NOSOTROS</a></li>
+          <li><a class="nav-link scrollto" href="#services">PLATAFORMA</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">COBERTURA</a></li>
+          <li><a class="nav-link scrollto" href="#contact">CONTACTO</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+<!-- End Header -->
+	
+	
+<div id="fullpage">
+	<div class="section " id="section0">
+		<video id="myVideo" loop muted data-autoplay playsinline>
+			<source src="assets/img/office-01.mp4" type="video/mp4">
+		</video>
+		
+	<div class="layer aos-init aos-animate" data-aos="fade-up">
+      <div class="row justify-content-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1 style="font-size: 45px; font-family: 'Poppins', sans-serif;"> Somos el medio más importante de la región </h1>
+          <h2 style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 22px; color: #fff;">Hacemos periodismo, lo hacemos con pasión</h2>
+        </div>
+      </div>
+    </div>
+		
+	</div>
+	
+</div>
+	
+<div class="content">
+<main id="main">
+ 
+    <!-- ======= MEDIOS Section ======= -->
+ <section id="clients" class="clients">
+  <div class="container" data-aos="zoom-in">
+
+    <div class="clients-slider swiper">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide"><img src="assets/img/logos-byn/transparente.png" class="delsiglo" alt="Estación Del Siglo"></div>
+        <div class="swiper-slide"><img src="assets/img/logos-color/lared-color.png" class="" alt=""></div>
+        <div class="swiper-slide"><img src="assets/img/logos-color/unosantafe-color.png" style="width: 120px;" class="" alt=""></div>
+        <div class="swiper-slide"><img src="assets/img/logos-color/unoentrerios-color.png" style="width: 120px;" class="" alt=""></div>
+        <div class="swiper-slide"><img src="assets/img/logos-color/lacapi-negro.png"  style="width: 220px;" class="" alt=""></div>
+        <div class="swiper-slide"><img src="assets/img/logos-color/fm90.3-color.png" style="width: 120px; margin-left: -110px;" class="" alt="" ></div>
+        <div class="swiper-slide"><img src="assets/img/logos-color/metropoli-color.png" style="width: 220px; margin-left: -110px;" class="" alt=""></div>
+        <div class="swiper-slide"><img src="assets/img/logos-color/lt8-color.png" style="width: 110px; margin-left: -20px" class="" alt=""></div>
+        <div class="swiper-slide"><img src="assets/img/logos-color/unaradio-color.png"  style="width: 110px; margin-left: -20px" class="" alt=""></div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+	
+<!-- End MEDIOS -->
+
+	<!-- ======= MISI[ON VALOR] ======= -->
+    <section id="services" class="services" style="background-color:black;">
+      <div class="container" data-aos="fade-up">
+ 
+        <div class="section-title">
+          <h2>Valores</h2>
+          <p style="color: #fff;">ABOUT US</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box" style="background-color: black;">
+              <h4><a style="color: #fff; font-weight: 700;" href="">MISIÓN</a></h4>
+              <p style="color: #fff; font-family: 'Poppins', sans-serif; font-weight: 300;">Lorem Ipsum is simply dummy text of the printing and typesetting industry, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box" style="background-color: black;">
+              <h4><a style="color: #fff; font-weight: 700;" href="">VISIÓN</a></h4>
+              <p style="color: #fff; font-family: 'Poppins', sans-serif; font-weight: 300;" >Lorem Ipsum is simply dummy text of the printing and typesetting industry, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box" style="background-color: black;">
+              <h4><a style="color: #fff; font-weight: 700;" href="">ESTRATEGIA</a></h4>
+              <p style="color: #fff; font-family: 'Poppins', sans-serif; font-weight: 300;" >Lorem Ipsum is simply dummy text of the printing and typesetting industry, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- MISION VALOR  -->
+
+<!-- ======= PRINT ======= -->
+    <section id="about" class="about" style="background-color: black">
+      <div class="container" data-aos="fade-up" style="margin-top: -50px;">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100" style="margin-top: -60px;">
+            <img src="assets/img/diario front.png" class="img-fluid"  style="padding: 40px;" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #fff;">PRINT</h1>
+            <p style="font-family: 'Poppins'; font-weight: 300; color: #fff;">
+              La Capital en su versión papel, es el medio Decano de la Prensa Argentina, referente informativo, de alto impacto y visibilidad en Rosario y la región, lo que lo convierte en el soporte correcta y segura para tu marca. 
+            </p>
+          </div>
+        </div>
+	</div>
+  	</section>
+<!-- End PRINT -->
+	
+    <!-- ======= DIGITAL ======= -->
+    <section id="digital" class="about" style="background-color: black;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-right" data-aos-delay="100" style="margin-top: -120px;">
+            <img src="assets/img/mac front.png" class="img-fluid" style="padding:50px"  alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-left" data-aos-delay="100">
+            <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #fff;">DIGITAL</h1>
+            <p  style="font-family: 'Poppins'; font-weight: 300; color: #fff;">
+              La Capital en su versión papel, es el medio Decano de la Prensa Argentina, referente informativo, de alto impacto y visibilidad en Rosario y la región, lo que lo convierte en el soporte correcta y segura para tu marca. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+	<!-- END DIGITAL -->
+
+    <!-- ======= RADIO ======= -->
+    <section id="radio" class="about" style="background-color: black;">
+      <div class="container" data-aos="fade-up" style="margin-top: -50px;">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100" style="margin-top: -90px;">
+            <img src="assets/img/Kerfin7_NEA_2274.png" class="img-fluid"  style="padding: 85px;" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #fff; margin-top: 40px;">RADIO</h1>
+            <p style="font-family: 'Poppins'; font-weight: 300; color: #fff;">
+              Información y entretenimiento de calidad para Rosario y toda la región. Con más de 85 años de historia impulsamos nuestros esfuerzos desde la PASIÓN por lo que hacemos. Un gran equipo de periodistas con trayectoria y opinión, le garantiza al oyente la más completa cobertura de las noticias de la ciudad y la región. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- End RADIO -->
+	
+    <!-- ======= VIA PUBLICA ======= -->
+
+    <section id="viapublica" class="about" style="background-color: black;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-right" data-aos-delay="100" style="margin-top: -120px;">
+            <img src="assets/img/mac front.png" class="img-fluid" style="padding:50px"  alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-left" data-aos-delay="100">
+            <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #fff;">VÍA PÚBLICA</h1>
+            <p  style="font-family: 'Poppins'; font-weight: 300; color: #fff;">
+              Desde hace más de 20 años dedicados a la publicidad de afiches en carteleras y vallados en obra, brindando servicios de primera calidad, adecuada a las exigencias del mercado. Tu publicidad estratégicamente instalada, somos la mejor opción para tu publicidad en vía pública.
+ 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+	<!-- End VIA PUBLICA -->
+ 
+   
+    
+ 
+
+   
+
+    <!-- ======= ZONA DE ALCANCE ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in" style="height: 150px;">
+       
+        <div class="section-title">
+          <h2>Cobertura</h2>
+          <p style="color: #fff;">ZONAS DE ALCANCE</p>
+          <h6 style="width: 850px; color: #fff; font-family: 'Poppins'; font-weight: 300; margin-top: 20px;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</h6>
+
+	  	</div>
+      </div>
+    </section>
+<!-- End ZONA DE ALCANCE -->
+
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+      </div>
+
+    </section><!-- End Counts Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #fff;">Contact Us</p>
+        </div>
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2815.4708974608!2d-60.638827982965836!3d-32.9463089774244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab19b174578b%3A0x9ac5bbd2c78e6522!2sMuseo%20Diario%20La%20Capital!5e0!3m2!1ses!2sar!4v1675870645158!5m2!1ses!2sar" frameborder="0" allowfullscreen></iframe>
+          
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <h4 style="font-family: 'Poppins', sans-serif; color: #fff; " >Ubicación:</h4>
+                <p style="font-family: 'Poppins', sans-serif; color: #fff;" >Sarmiento 763, S2000 Rosario, Santa Fe</p>
+              </div>
+
+              <div class="email">
+                <h4 style="font-family: 'Poppins', sans-serif; color: #fff;" >Email:</h4>
+                <p style="font-family: 'Poppins', sans-serif; color: #fff;" >info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <h4 style="font-family: 'Poppins', sans-serif; color: #fff;" >Teléfono:</h4>
+                <p style="font-family: 'Poppins', sans-serif; color: #fff;" >+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form" style= "background-color: black;">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button style="color: #fff;" type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->	
+
+	</div>
+
+<script type="text/javascript" src="assets/js/fullpage.js"></script>
+<script type="text/javascript" src="assets/js/examples.js"></script>
+	
+<script src="assets/js/aos.js"></script>
+<script src="assets/swiper/swiper-bundle.min.js"></script>
+	
+<script src="assets/js/purecounter_vanilla.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/glightbox.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+	
+<script src="assets/js/main.js"></script>
+
+
+
+  <!-- Template Main JS File -->
+	
+	
+	
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'orange', '#ccddff'],
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage', 'more0', 'more1', 'more2', 'more3', 'more4'],
+        scrollBar: true
+    });
+</script>
+
+</body>
+</html>
