@@ -23,6 +23,11 @@
 # LOGOS
 --------------------------------------------------------------*/
 
+.swiper-slide {
+	
+	margin-right: 50px;
+}
+
 .delsiglo {
 	background-image:url("../img/logos-byn/delsiglo.png");
 	background-size: 80px;
@@ -32,13 +37,153 @@
 }
 
 .delsiglo:hover {
-	background-image:url("../img/logos-color/Recurso 1.png");
+	background-image:url("../img/logos-color/delsiglo.png");
+	background-size: 80px;    
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fm903 {
+	background-image:url("../img/logos-byn/903.png");
+	background-size: 80px;
+	width: 80px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fm903:hover {
+	background-image:url("../img/logos-color/903.png");
+	background-size: 80px;    
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lacapi {
+	background-image:url("../img/logos-byn/lacapi.png");
+	background-size: 80px;
+	width: 80px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lacapi:hover {
+	background-image:url("../img/logos-color/lacapi.png");
 	background-size: 80px;    
 	background-size: contain;
     background-repeat: no-repeat;
 }
 
 
+.lared {
+	background-image:url("../img/logos-byn/lared.png");
+	background-size: 80px;
+	width: 80px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lared:hover {
+	background-image:url("../img/logos-color/lared.png");
+	background-size: 80px;    
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.lt8 {
+	background-image:url("../img/logos-byn/lt8.png");
+	background-size: 80px;
+	width: 80px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lt8:hover {
+	background-image:url("../img/logos-color/lt8.png");
+	background-size: 80px;    
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.lt15 {
+	background-image:url("../img/logos-byn/lt15.png");
+	background-size: 80px;
+	width: 80px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lt15:hover {
+	background-image:url("../img/logos-color/lt15.png");
+	background-size: 80px;    
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.una {
+	background-image:url("../img/logos-byn/una.png");
+	background-size: 80px;
+	width: 80px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.una:hover {
+	background-image:url("../img/logos-color/una.png");
+	background-size: 80px;    
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.metropoli {
+	background-image:url("../img/logos-byn/metropoli.png");
+	background-size: 130px;
+	width: 80px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.metropoli:hover {
+	background-image:url("../img/logos-color/metropoli.png");
+	background-size: 130px;    
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.unoer {
+	background-image:url("../img/logos-byn/unoer.png");
+	background-size: 80px;
+	width: 80px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.unoer:hover {
+	background-image:url("../img/logos-color/unoer.png");
+	background-size: 80px;    
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.unosf {
+	background-image:url("../img/logos-byn/unosf.png");
+	background-size: 80px;
+	width: 80px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.unosf:hover {
+	background-image:url("../img/logos-color/unosf.png");
+	background-size: 80px;    
+	background-size: contain;
+    background-repeat: no-repeat;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -635,7 +780,7 @@ section {
 .clients .swiper-slide img {
   opacity: 1;
   transition: 0.3s;
-  width: 80px;
+  width: 150px;
 }
 
 .clients .swiper-slide img:hover {
@@ -1618,4 +1763,10 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+.descripcion p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 20px;
 }
